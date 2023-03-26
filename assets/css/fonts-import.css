@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "ClickerScript";
+    src: url("../fonts/Clicker_Script/ClickerScript-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url("../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
+    font-weight: 300 900;
+    font-style: normal;
+}
+
+.cs-font {
+    font-family: "ClickerScript";
+}

@@ -1,0 +1,48 @@
+.section-amazing-morning {
+    background-color: #603709CC;
+    background-image: url(../img/bg_amazing_coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 82px;
+}
+.section-amazing-morning .row {
+    margin: 0;
+}
+
+.section-amazing-morning  .wrapper-text {
+    max-width: 575px;
+}
+
+.section-amazing-morning .main-title {
+    margin-bottom: 22px;
+}
+
+.section-amazing-morning .wrapper-text .normal-text {
+    color: #fff;
+    font-size: 20px;
+    line-height: 34px;
+    margin-bottom: 22px;
+}
+
+.section-amazing-morning .wrapper-text .main-button {
+    display: block;
+    width: fit-content;
+}
+
+.section-amazing-morning .wrapper-image {
+   padding: 0;
+}
+
+.section-amazing-morning .wrapper-image .cup-img {
+    margin-left: auto;
+    display: block;
+    max-width: 657px;
+}
+
+@media (max-width: 767px) {
+    .section-amazing-morning{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-position-x: 35%;
+    }
+}

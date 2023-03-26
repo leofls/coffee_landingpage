@@ -1,0 +1,69 @@
+.section-why-different{
+    margin-bottom: 82px;
+}
+.section-why-different .container {
+    text-align: center;
+}
+
+.section-why-different .container .main-title {
+    margin-bottom: 16px;
+}
+
+.section-why-different .container .normal-text {
+    font-size: 20px;
+    line-height: 34px;
+    margin-bottom: 32px;
+}
+.section-why-different .quality-list {
+    margin-bottom: 32px;
+}
+.section-why-different .card-quality {
+    background: #FFF9F1;
+    border: 1px solid #f9c06a6b;
+    padding: 36px 40px;
+    transition: 0.3s ease;
+}
+
+.section-why-different .card-quality:hover {
+    background: #FFEED8;
+}
+
+.section-why-different .card-quality .icon {
+    max-width: 88px;
+    margin-bottom: 25px;
+}
+
+.section-why-different .card-quality .title-quality {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 37px;
+    color: #603809;
+    margin-bottom: 8px;
+}
+
+.section-why-different .card-quality .description {
+    font-size: 20px; 
+    line-height: 27px;
+}
+.section-why-different .container .contain-call-action .normal-text {
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 0;
+}
+.section-why-different .container .contain-call-action h3.main-title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 24px;
+}
+
+.section-why-different .container .contain-call-action .main-button {
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+
+@media (max-width: 767px) {
+    .section-why-different .card-quality {
+        margin-bottom: 25px;
+    }
+}

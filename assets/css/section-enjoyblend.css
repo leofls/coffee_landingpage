@@ -1,0 +1,71 @@
+.section-enjoyblend {
+    padding-bottom: 82px;
+}
+
+.section-enjoyblend .container{
+    text-align: center;
+}   
+
+.section-enjoyblend .container .main-title {
+    margin-bottom: 16px;
+}
+
+.section-enjoyblend .container .normal-text {
+    font-size: 20px;
+    line-height: 34px;
+    margin-bottom: 32px;
+}
+
+.section-enjoyblend .list-blend {
+    
+}
+.section-enjoyblend .list-blend .card-blend-coffee {
+    background: #FFF9F1;
+    border: 1px solid #f9c06a6b;
+    max-width: 280px;
+    margin: auto;
+}
+
+.section-enjoyblend .list-blend .card-blend-coffee .img-featured {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.section-enjoyblend .list-blend .card-blend-coffee .product-name {
+    color: #603809;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    margin-bottom: 6px;
+}
+
+.section-enjoyblend .list-blend .card-blend-coffee .description {
+    color: #1E1E1E;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 6px;
+}
+
+.section-enjoyblend .list-blend .card-blend-coffee .price {
+    color: #603809;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 18px;
+}
+
+.section-enjoyblend .list-blend .card-blend-coffee  .main-button {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: -18px;
+}
+
+@media (max-width: 767px) {
+    .section-enjoyblend .list-blend .card-blend-coffee {
+        margin-bottom: 50px;
+    }
+    .section-enjoyblend .list-blend .card-blend-coffee.-variant-sm {
+        margin-bottom: 0px;
+    }
+}

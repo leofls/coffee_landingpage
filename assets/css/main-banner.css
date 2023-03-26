@@ -1,0 +1,58 @@
+.main-banner {
+    /* height: 100vh; */
+    position: relative;
+}
+.main-banner .bg-banner {
+    width: 100%;
+}
+
+.main-banner .text-contain {
+    position: absolute;
+    top: 15%;
+    transform: translateY(-50%);
+    left: 5%;
+    color: #fff;
+    max-width: 600px;
+    overflow: hidden;
+}
+.main-banner .text-contain .subtitle{
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 500;
+}
+.main-banner .text-contain .cs-font{
+    font-size: 220px;
+    line-height: 291px;
+}
+.main-banner .text-contain .desc {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.main-banner .text-contain .main-button {
+    margin-top: 20px;
+    display: block;
+    width: fit-content;
+}
+
+@media (max-width: 767px) {
+    .main-banner {
+        overflow-x: hidden;
+    }
+    .main-banner .bg-banner {
+        height: 90vh;
+        width: initial;
+    }
+    .main-banner .text-contain {
+        max-width: 300px;
+        top: 55%;
+    }
+
+    .main-banner .text-contain .cs-font {
+        font-size: 100px;
+        line-height: normal;
+    }
+
+    
+}

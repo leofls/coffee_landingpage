@@ -1,0 +1,75 @@
+.section-newsletter {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url(../img/bg-cup-bean.jpg);
+    background-size: cover;
+}
+.section-newsletter .wrapper-contain {
+    text-align: center;
+    max-width: 980px;
+    margin: auto;
+}
+.section-newsletter .wrapper-contain .main-title{
+    margin-bottom: 16px; 
+}
+.section-newsletter .wrapper-contain .subtitle{
+    margin-bottom: 26px;
+}
+
+.section-newsletter .form-news {
+    max-width: 642px;
+    max-height: 66px;
+    width: 100%;
+    margin: auto;
+}
+.section-newsletter .form-news .input-email::placeholder{
+    color: #00000057;
+}
+.section-newsletter .form-news .input-email:focus {
+    box-shadow: -1px 1px 8px 0.1px #f9c06a6b;
+}
+.section-newsletter .form-news .input-email {
+    width: 100%;
+    background: #FFF9F1;
+    border: 1px solid #f9c06a6b;
+    border-radius: 4px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 26px;
+
+    font-size: 20px;
+    line-height: 34px;
+    color: #707070;
+}
+
+.section-newsletter .form-news .main-button.-news {
+    max-width: 137px;
+    border-radius: 4px;
+    border: 1px solid #F9C06A;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    margin-left: -8px;
+    
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    color: #603809;
+}
+
+.section-newsletter .form-news .main-button.-news:hover {
+    background-color: #603809;
+    border: 1px solid #603809;
+    color: #F9C06A;
+    opacity: 1;
+}
+
+@media (max-width: 767px) {
+    .section-newsletter .form-news {
+        max-height: initial;
+    }
+    .section-newsletter .form-news .input-email {
+        max-width: 300px;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+}
